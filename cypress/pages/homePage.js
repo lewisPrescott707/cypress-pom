@@ -1,13 +1,8 @@
-class homePage{
+class homePage {
     
-    elements ={
-        loginBtn : () => cy.get("#signin"),
-        logOffBtn : () => cy.get("#logout")
-    }
-
-    clickOnSignin(){
-        this.elements.loginBtn().click()
-    }
+    _ = {
+        username: () => cy.get(".username")
+    };
 
 }
 
